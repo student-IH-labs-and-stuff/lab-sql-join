@@ -4,10 +4,13 @@
 
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals.
 
+The database is structured as follows:
+![DB schema](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/database-sakila-schema.png)
+
 ### Instructions
 
-1. List number of films per `category`.
-2. Display the first and last names, as well as the address, of each staff member.
-3. Display the total amount rung up by each staff member in August of 2005.
-4. List each film and the number of actors who are listed for that film.
-5. Using the tables `payment` and `customer` and the JOIN command, list the total paid by each customer. List the customers alphabetically by last name.
+0. Inspect the database structure and find the best-fitting table to analyse for the next task
+1. Using the tables `address` and `staff` and the JOIN command, display the first names, last names, and address of each staff member.
+2. Using the tables `staff` and `payment` and the JOIN command, display the total payment amount by staff member in August of 2005.
+3. Using the tables `film` and `film_actor` and the JOIN command, list each film and the number of actors who are listed for that film.
+4. Using the tables `payment` and `customer` and the JOIN command, list the total paid by each customer. Order the customers by last name and alphabetically.
